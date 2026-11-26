@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.7
+
+- Fixed Text Size in ScaleUtil
+
 ## 1.0.3
 
 - Added full library barrel file exports in `flutter_widget_app.dart` for all widgets and utilities.

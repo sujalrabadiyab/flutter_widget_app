@@ -59,7 +59,7 @@ extension FigmaScaleExtension on num {
 
   double get r => this * ScaleUtil.scale;
 
-  double get t => this * ScaleUtil.scale - ScaleUtil._fontSizeDiff;
+  double get t => (this - ScaleUtil._fontSizeDiff) * ScaleUtil.scale;
 
   /// Percentage of the design width converted to actual screen width.
   /// Example: 1150.dw with design width 1242 = 1150 / 1242 * screenWidth
